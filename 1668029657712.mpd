@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="static" minBufferTime="PT10S" profiles="urn:mpeg:dash:profile:isoff-main:2011" mediaPresentationDuration="PT3M0.083S">
+  <Period start="PT0S" duration="PT3M0.083S" id="1">
+    <AdaptationSet mimeType="video/mp4" frameRate="24/1" segmentAlignment="true" subsegmentAlignment="true" startWithSAP="1" subsegmentStartsWithSAP="1" bitstreamSwitching="false">
+      <Representation id="1" width="480" height="270" bandwidth="5000000" codecs="avc1.4d401e">
+        <BaseURL>1668029657712.cmfv</BaseURL>
+        <SegmentBase indexRange="757-1888">
+          <Initialization range="0-756"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="und" segmentAlignment="0">
+      <Representation id="2" bandwidth="96000" audioSamplingRate="48000" codecs="mp4a.40.2">
+        <BaseURL>1668029657712.cmfa</BaseURL>
+        <SegmentBase indexRange="658-1777">
+          <Initialization range="0-657"/>
+        </SegmentBase>
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
