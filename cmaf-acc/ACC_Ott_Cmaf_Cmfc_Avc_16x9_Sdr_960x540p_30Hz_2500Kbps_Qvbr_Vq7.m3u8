@@ -3,7 +3,7 @@
 #EXT-X-TARGETDURATION:31
 #EXT-X-MEDIA-SEQUENCE:1
 #EXT-X-PLAYLIST-TYPE:VOD
-#EXT-X-MAP:URI="A Christmas Carol (1999) 1080p_Ott_Cmaf_Cmfc_Avc_16x9_Sdr_960x540p_30Hz_2500Kbps_Qvbr_Vq7init.cmfv"
+#EXT-X-MAP:URI="ACC_Ott_Cmaf_Cmfc_Avc_16x9_Sdr_960x540p_30Hz_2500Kbps_Qvbr_Vq7init.cmfv"
 #EXTINF:30,
 ACC_Ott_Cmaf_Cmfc_Avc_16x9_Sdr_960x540p_30Hz_2500Kbps_Qvbr_Vq7_000000001.cmfv
 #EXTINF:30,
